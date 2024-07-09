@@ -16,7 +16,7 @@ This repository contains a scripts and configuration files to set up Traefik to 
 Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/traefik-cloudflare-automation.git
+git clone https://github.com/jdepew88/update_traefik_and_cloudflare.git
 cd traefik-cloudflare-automation
 ```
 
