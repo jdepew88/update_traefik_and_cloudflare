@@ -11,18 +11,30 @@ This repository contains a scripts and configuration files to set up Traefik to 
 
 ## Setup
 
-### 1. Clone the Repository
+### 1. Navigate to the Traefik appdata directory
 
-Clone this repository to your local machine.
+#### For Unraid
+
+```bash
+cd /mnt/user/appdata/traefik
+```
+
+#### For Docker Compose
+
+```bash
+cd /opt/appdata/traefik
+```
+
+### 2. Clone this repository to the Traefik appdata directory
 
 ```bash
 git clone https://github.com/jdepew88/update_traefik_and_cloudflare.git
 cd update_traefik_and_cloudflare
 ```
 
-### 2. Configure Environment Variables
+### 3. Configure Environment Variables
 
-Create a `.env` file in the root directory of the repository with the following content:
+Modify the `.env` file in the ./traefik/update_traefik_and_cloudlfare folder
 
 ```dotenv
 # Cloudflare configuration
@@ -39,23 +51,7 @@ CONFIG_FILE_PATH=/mnt/user/appdata/traefik-ext/config.yml
 
 Replace `your_cloudflare_api_token`, `your_cloudflare_zone_id`, and `your-domain.com` with your actual Cloudflare API token, zone ID, and domain name, respectively. Set the `CONFIG_FILE_PATH` to the path of your Traefik dynamic configuration file.
 
-### 3. Running the Script
-
-#### For Unraid
-
-Navigate to the Traefik appdata directory:
-
-```bash
-cd /mnt/user/appdata/traefik
-```
-
-#### For Docker Compose
-
-Navigate to the Traefik appdata directory:
-
-```bash
-cd /opt/appdata/traefik
-```
+### 4. Running the Script
 
 Make the `setup_and_run.sh` script executable and run it:
 
