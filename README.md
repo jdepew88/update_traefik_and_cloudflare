@@ -1,7 +1,7 @@
 
-# Traefik with Cloudflare DNS Automation
+# Simple script to automate adding services to Traefik dynamic config and add CNAME records to Cloudflare DNS
 
-This repository contains scripts and configuration files to set up Traefik for external services using Cloudflare as the DNS provider. Follow the steps below to configure and run the automation scripts.
+This repository contains a scripts and configuration files to set up Traefik to share services externally using Cloudflare as the DNS provider. Follow the steps below to configure and run the automation scripts.
 
 ## Prerequisites
 
