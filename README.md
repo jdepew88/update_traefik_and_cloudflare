@@ -17,7 +17,7 @@ Clone this repository to your local machine.
 
 ```bash
 git clone https://github.com/jdepew88/update_traefik_and_cloudflare.git
-cd traefik-cloudflare-automation
+cd update_traefik_and_cloudflare
 ```
 
 ### 2. Configure Environment Variables
