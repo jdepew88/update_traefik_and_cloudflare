@@ -33,7 +33,8 @@ CLOUDFLARE_ZONE_ID=your_cloudflare_zone_id
 DOMAIN_NAME=your-domain.com
 
 # Config file path
-CONFIG_FILE_PATH=path_to_your_config_file/config.yml
+CONFIG_FILE_PATH=/mnt/user/appdata/traefik-ext/config.yml
+#CONFIG_FILE_PATH=/opt/appdata/traefik/config.yml 
 ```
 
 Replace `your_cloudflare_api_token`, `your_cloudflare_zone_id`, and `your-domain.com` with your actual Cloudflare API token, zone ID, and domain name, respectively. Set the `CONFIG_FILE_PATH` to the path of your Traefik dynamic configuration file.
