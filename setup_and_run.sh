@@ -25,9 +25,9 @@ echo "Installing required packages..."
 pip install --upgrade pip
 pip install requests pyyaml python-dotenv
 
-# Run the Python script
+# Run the Python script with the CONFIG_FILE_PATH as an argument
 echo "Running the Python script..."
-python update_traefik_and_cloudflare.py $CONFIG_FILE_PATH
+python update_traefik_and_cloudflare.py "$CONFIG_FILE_PATH"
 
 # Deactivate the virtual environment
 deactivate
